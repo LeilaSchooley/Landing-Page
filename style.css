@@ -13,6 +13,12 @@ a{
     height: 500px;
 
 }
+.second-section{
+    height: 500px;
+    background-color: white
+}
+
+
 .header{
     display: flex;
     justify-content: space-around;
@@ -42,7 +48,7 @@ a{
     
 
 }
-.first-row{
+.first-section{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -51,6 +57,7 @@ a{
 
 
 }
+
 
 .text{
     display: flex;
@@ -65,13 +72,23 @@ button{
 
 .placeholder{
     background-color: #E5E7EB;
-    height: 235px;
+    height: 300px;
     width: 500px;
     display: flex;
+    
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
+
 .small-button{
     padding: 10px;
     width: 100px;
+}
+.box{
+    border: #3882F6;
+    border: thick double #32a1ce;
+}
+
+.box-container{
+    display: flex;
 }
