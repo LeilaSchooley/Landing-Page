@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+body {
+  font-family: Roboto, sans-serif;
+}
 ul {
   list-style: none;
   margin: 0%;
@@ -12,7 +16,6 @@ a {
   background-color: #1f2937;
   height: 500px;
 }
-
 
 .header {
   display: flex;
@@ -75,45 +78,38 @@ button {
 }
 
 .second-section {
-    height: 350px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 25px;
-    gap: 20px;
-  }
-  .random {
-    font-size: 36px;
-
-  }
+  height: 350px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  gap: 20px;
+}
+.random {
+  font-size: 36px;
+}
 .box-container {
   display: flex;
   justify-content: space-around;
 
   gap: 52px;
-  
-
-}  
+}
 .box {
   border: #3882f6;
   border: thick double #32a1ce;
   width: 180px;
-  height: 140px;   
-
+  height: 140px;
 }
 
-
-
-.boxes{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-
+.boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.third-section{
+.third-section {
   height: 300px;
   padding-left: 125px;
   padding-right: 125px;
@@ -123,18 +119,56 @@ button {
   justify-content: center;
   align-items: center;
 }
-.quote{
+.quote {
   font-size: 36px;
-  
 }
-.quotes{
+.quotes {
   display: flex;
   flex-direction: column;
-
-
 }
-.quote-name{
+.quote-name {
   align-self: flex-end;
   font-size: 18px;
   font-weight: 700;
+}
+.fourth-section {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-cta{
+  width: 850px;
+  height: 150px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cta-row{
+  flex-wrap: wrap;
+  display: flex;
+  gap: 70px;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f2937;
+  height: 125px;
+  color: white;
+}
+.cta-header{
+  font-size: 24px;
+  color: #f9faf8;
+}
+.cta-text{
+  color: white;
+}
+.sign-up{
+  width: 70px;
+  height: 40px;
 }
