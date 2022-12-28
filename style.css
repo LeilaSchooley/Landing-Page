@@ -44,6 +44,8 @@ a {
   justify-content: space-around;
   align-items: center;
   height: 500px;
+  padding-left: 125px;
+  padding-right: 125px;
 }
 
 .text {
@@ -113,7 +115,8 @@ button {
 
 .third-section{
   height: 300px;
-  
+  padding-left: 125px;
+  padding-right: 125px;
   background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
@@ -122,7 +125,6 @@ button {
 }
 .quote{
   font-size: 36px;
-  font-family: #1f2937;
   
 }
 .quotes{
